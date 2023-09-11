@@ -6,6 +6,10 @@ ruby "3.2.2"
 # Install devise for authentication
 gem "devise"
 
+# Use Tailwind CSS for styling
+gem 'tailwindcss-rails'
+
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.7"
 
