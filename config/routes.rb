@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :splash
   resources :groups do 
-    resources :movements
+    resources :entities
   end
   root "splash#index"
 end
