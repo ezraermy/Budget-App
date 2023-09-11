@@ -24,8 +24,8 @@ class GroupsController < ApplicationController
       @group = Group.find(params[:id])
       return unless @group.user == current_user
   
-      @movements = @group.movements.order(created_at: :desc)
-      @total = @movements.sum(:amount)
+      @entities = @group.entities.order(created_at: :desc)
+      @total = @entities.sum(:amount)
     end
   
     private

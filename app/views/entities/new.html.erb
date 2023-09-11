@@ -6,7 +6,7 @@
   <%= image_tag("search.png", alt: "Search icon") %>
 </div>
 
-<%= form_with model: @entity, url: group_movements_path, local: true do |f| %>
+<%= form_with model: @entity, url: group_entities_path, local: true do |f| %>
   <%= f.text_field :name, autofocus: true, placeholder: "Name" %>
   <%= f.number_field :amount, autofocus: true, placeholder: "Amount" %>
   <div class="select-category">

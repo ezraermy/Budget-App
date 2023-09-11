@@ -24,7 +24,7 @@
             <br>
             <p><%= group.created_at.strftime("%d-%m-%Y") %></p>
           </div>
-          <h2>$<%= group.movements.sum(:amount) %></h2>
+          <h2>$<%= group.entities.sum(:amount) %></h2>
         <% end %>
       </li>
     <% end %>
