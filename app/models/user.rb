@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   
   has_many :groups, class_name: 'Group', dependent: :destroy, foreign_key: 'user_id'
-  has_many :movements, class_name: 'Movement', dependent: :destroy, foreign_key: 'user_id'
+  has_many :entities, class_name: 'Movement', dependent: :destroy, foreign_key: 'user_id'
 
   validates :name, presence: true
   validates :email, presence: true
