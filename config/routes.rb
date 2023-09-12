@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'render/index'
   devise_for :users
@@ -7,8 +9,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :users, only: :index
   resources :splash
-  resources :groups do 
+  resources :groups do
     resources :entities
   end
-  root "splash#index"
+  root 'splash#index'
 end

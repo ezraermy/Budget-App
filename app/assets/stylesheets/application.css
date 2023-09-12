@@ -61,11 +61,16 @@
  }
  
  section {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   height: 100vh;
-   background-color: var(--background-color);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+  overflow-y: auto; 
+  height: 100%;
  }
  
  button {
