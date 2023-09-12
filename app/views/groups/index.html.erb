@@ -1,9 +1,7 @@
 <div class="container">
   <div class="splash header">
     <% if user_signed_in? %>
-      <%= link_to destroy_user_session_path, method: :delete do %>
-        <%= image_tag("menu.png", alt: "Menu icon") %>
-      <% end %>
+      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
     <% end %>
     <h2>CATEGORIES</h2>
     <%= image_tag("search.png", alt: "Search icon") %>
