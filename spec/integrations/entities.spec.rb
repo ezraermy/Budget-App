@@ -11,7 +11,6 @@ RSpec.describe 'Entities', type: :feature do
       )
       @entity = Entity.new(name: 'Accomodation', amount: 2, user_id: @user.id, group_ids: [@group.id])
 
-     
       visit new_user_session_path
       fill_in 'user_email', with: 'test@gmail.com'
       fill_in 'user_password', with: '123456'

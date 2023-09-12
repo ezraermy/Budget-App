@@ -16,7 +16,6 @@ RSpec.describe 'Groups', type: :feature do
         user_id: @user.id
       )
 
-      
       visit new_user_session_path
       fill_in 'user_email', with: 'test@gmail.com'
       fill_in 'user_password', with: '123456'
@@ -48,7 +47,6 @@ RSpec.describe 'Groups', type: :feature do
         user_id: @user.id
       )
 
-      
       visit new_user_session_path
       fill_in 'user_email', with: 'test@gmail.com'
       fill_in 'user_password', with: '123456'
