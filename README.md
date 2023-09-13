@@ -48,7 +48,7 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/0c76556c797a4cc88e9286e879772827?sid=3d0c51bd-5213-4c7b-a90c-943d473c6653)
+- [Live Demo Link](https://www.loom.com/share/3866af0f04bf4e5987432139eb638ebe?sid=c504cbe3-09d3-47cb-b70f-84789b05633a)
 
 <!-- DEPLOYED AT -->
 ## 🚀 Deployed at <a name="deployed-at"></a>
