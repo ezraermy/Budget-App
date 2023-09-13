@@ -12,11 +12,12 @@
  *
  *= require_tree .
  *= require_self
+ //= require application
  */
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
 
 :root {
-  --color-primary: #3778c2;
+  --color-primary: #0f4583;
   --color-secondary: #5fb523;
   --color-dark: #434b54;
   --text-color: #262729;
@@ -72,13 +73,47 @@ section {
   height: 100%;
 }
 
-button {
-  border: none;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.splash-title {
+  font-size: 36px;
+  color: #db34d3;
+  animation: fadeIn 3s ease; /* Apply the fade-in animation */
+}
+
+.unique-button {
+  border: 2px solid #3498db;
   border-radius: 3px;
-  padding: 10%;
-  margin: 10%;
+  padding: 10px 20px;
+  margin: 10px;
   box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
   cursor: pointer;
+  background-color: transparent;
+  color: #3498db;
+  transition: background-color 0.3s ease;
+}
+
+.unique-button:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.sign-out-button {
+  border: 2px solid #3498db;
+  border-radius: 3px;
+  padding: 2px 4px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #3498db;
+  transition: background-color 0.3s ease;
 }
 
 h1 {
@@ -111,6 +146,11 @@ h2 {
 
 .splash button {
   background-color: #fff;
+}
+
+#menuIcon {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
 }
 
 .header {

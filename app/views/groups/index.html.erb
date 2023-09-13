@@ -1,7 +1,7 @@
 <div class="container">
   <div class="splash header">
     <% if user_signed_in? %>
-      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-danger" %>
+      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "sign-out-button" %>
     <% end %>
     <h2>CATEGORIES</h2>
     <%= image_tag("search.png", alt: "Search icon") %>
