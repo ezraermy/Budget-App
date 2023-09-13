@@ -26,7 +26,7 @@
 
 # 📖 Budget App <a name="about-project"></a>
 
-**Budget App** Budget-App is a mobile web application for efficient budget management. Easily track your expenses and spending habits by categorizing transactions. Gain insights into your financial trends and stay in control of your budget.
+**Budget App** is a mobile web application for efficient budget management. Easily track your expenses and spending habits by categorizing transactions. Gain insights into your financial trends and stay in control of your budget.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +44,15 @@
 - [Login-page]
 - [Category-page]
 - [Transaction-page]
+
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://www.loom.com/share/0c76556c797a4cc88e9286e879772827?sid=3d0c51bd-5213-4c7b-a90c-943d473c6653)
+
+<!-- DEPLOYED AT -->
+## 🚀 Deployed at <a name="deployed-at"></a>
+- [Render](https://rails-budget-app-9a1r.onrender.com/)
 
 <!-- Getting Started -->
 
