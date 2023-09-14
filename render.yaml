@@ -1,18 +1,18 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: micronaut
+    databaseName: budget_app_ww09
+    user: posgres
 
 services:
   - type: web
-    name: mysite
+    name: rails-budget-app
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
+          name: budget_app_ww09
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
