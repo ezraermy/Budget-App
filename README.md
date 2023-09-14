@@ -48,7 +48,7 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rails-budget-app-9a1r.onrender.com/)
+- [Live Demo Link](https://rails-budget-app-sxs1.onrender.com)
 
 <!-- PRESENTATION -->
 ## 🚀 Presentation <a name="presentation"></a>
