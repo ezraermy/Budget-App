@@ -1,7 +1,7 @@
 databases:
   - name: micronaut
-    databaseName: budget_app_ww09
-    user: posgres
+    databaseName: micronaut_83ti
+    user: micronaut_83ti_user
 
 services:
   - type: web
@@ -12,7 +12,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: budget_app_ww09
+          name: micronaut_83ti
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
