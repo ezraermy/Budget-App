@@ -52,7 +52,7 @@
 
 <!-- PRESENTATION -->
 ## 🚀 Presentation <a name="presentation"></a>
-- [Render](https://www.loom.com/share/3866af0f04bf4e5987432139eb638ebe?sid=c504cbe3-09d3-47cb-b70f-84789b05633a)
+- [Presentation](https://www.loom.com/share/3866af0f04bf4e5987432139eb638ebe?sid=c504cbe3-09d3-47cb-b70f-84789b05633a)
 
 <!-- Getting Started -->
 
