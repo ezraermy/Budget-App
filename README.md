@@ -108,8 +108,6 @@ preload_app!
 Then run the following command:
 
 ```bash
-
-```bash
 rails server
 ```
 
