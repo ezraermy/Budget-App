@@ -82,6 +82,7 @@ Install the dependencies using npm:
 bundler install
 ```
 
+
 ### Run tests
 
 To run linters tests, run the following command:
@@ -95,6 +96,18 @@ npx stylelint "**/*.{css,scss}"
 ```
 
 ### Run the app
+
+To run the app locally, make sure to comment out the following line in `config/puma.rb`:
+
+```bash
+workers ENV.fetch("WEB_CONCURRENCY") { 4 }
+
+preload_app!
+```
+
+Then run the following command:
+
+```bash
 
 ```bash
 rails server
