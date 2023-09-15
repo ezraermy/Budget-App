@@ -88,6 +88,10 @@ bundler install
 To run linters tests, run the following command:
 
 ```bash
+  rspec
+```
+
+```bash
   rubocop
 ```
 
