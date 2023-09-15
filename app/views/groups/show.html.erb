@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="splash header">
+    <%= link_to root_path do %>
+      <%= image_tag("arrow-back.png", alt: "Arrow back icon") %>
+    <% end %>
+      <h2>TRANSACTIONS</h2>
+    <%= image_tag("search.png", alt: "Search icon") %>
+  </div>
+
+  <div class="total">
+    <h3>Total:</h3>
+    $<%= number_with_precision(@entities.sum(:amount), precision: 2) %>
+  </div>
+
+  <ul class="sub-container">
+    <% @entities.each do |entity| %>
+        <li class="group-transaction">
+          <%= image_tag @group.icon %>
+          <p><%= entity.name %></p>
+          <h2>$<%= entity.amount %></h2>
+        </li>
+    <% end %>
+  </ul>
+
+
+  <%= link_to new_group_entity_path(group_id: @group.id) do %>
+    <div class="green-button2">
+      <div>NEW TRANSACTION</div>
+    </div>
+  <% end %>
+</div>
